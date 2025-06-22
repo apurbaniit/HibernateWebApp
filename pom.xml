@@ -19,7 +19,7 @@
     <dependency>
       <groupId>org.hibernate.orm</groupId>
       <artifactId>hibernate-core</artifactId>
-      <version>6.4.0.Final</version>
+      <version>6.1.0.Final</version>
     </dependency>
     <!-- MySQL Connector -->
     <dependency>
@@ -51,6 +51,15 @@
       <groupId>org.glassfish.web</groupId>
       <artifactId>jakarta.servlet.jsp.jstl</artifactId>
       <version>2.0.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat -->
+    <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>tomcat</artifactId>
+      <version>11.0.0-M1</version>
+      <type>pom</type>
+      <scope>provided</scope>
     </dependency>
 
   </dependencies>

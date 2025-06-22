@@ -12,6 +12,5 @@
         <input type="submit" value="Add Book">
     </form>
     <a href="listBooks">View Books</a>
-    <% out.print("welcome to jsp"); %>
 </body>
 </html>

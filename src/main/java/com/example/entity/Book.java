@@ -20,7 +20,6 @@ public class Book {
     }
 
     public Book(String title, String author, double price) {
-        this.id = id;
         this.title = title;
         this.author = author;
         this.price = price;

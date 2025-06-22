@@ -10,12 +10,12 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.annotation.WebServlet;
 
-@WebServlet(name = "addBook")
+@WebServlet("/addBook")
 public class AddBookServlet extends HttpServlet {
     private BookDao bookDao = new BookDao();
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        request.getRequestDispatcher("add-book.jsp").forward(request, response);
     }
 
     @Override
